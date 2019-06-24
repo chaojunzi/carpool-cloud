@@ -1,7 +1,7 @@
 # carpool-cloud
 spring-boot  mybatis-plus  
 
-### 开源项目依赖：  
+### 开源项目依赖（文档）：  
 [hutool-超级工具类](https://www.hutool.cn/docs/)  
 [mybatis-plus-语法](https://baomidou.gitee.io/mybatis-plus-doc/#/quick-start)  
 [layui](https://github.com/sentsin/layui/)  
@@ -12,6 +12,7 @@ spring-boot  mybatis-plus
 >>>>>>>>>code : 代码自动生成  
 >>>>>>>>>config : 配置  
 >>>>>>>>>controller：控制层  
+>>>>>>>>>service：业务层    
 >>>>>>>>>dal : 持久层，（自动生成）  
 >>>>>>>>>domain ： vo/dto  接受参数/返回值  
 >>>>>>>>>CarpoolServerApplication 项目启动类  
