@@ -8,20 +8,20 @@ spring-boot  mybatis-plus
 
 ### 项目结构
 >com.carpool.cloud.server.  
->>>>>>>>>auth : 角色权限（注解/接口） 
->>>>>>>>>code : 代码自动生成
->>>>>>>>>config : 配置
->>>>>>>>>controller：控制层
->>>>>>>>>dal : 持久层，（自动生成）
->>>>>>>>>domain ： vo/dto  接受参数/返回值
->>>>>>>>>CarpoolServerApplication 项目启动类
+>>>>>>>>>auth : 角色权限（注解/接口）  
+>>>>>>>>>code : 代码自动生成  
+>>>>>>>>>config : 配置  
+>>>>>>>>>controller：控制层  
+>>>>>>>>>dal : 持久层，（自动生成）  
+>>>>>>>>>domain ： vo/dto  接受参数/返回值  
+>>>>>>>>>CarpoolServerApplication 项目启动类  
 >resources
->>>>>>>>>>config : 配置（h2 数据配置）
->>>>>>>>>>public： 静态文件
->>>>>>>>>>sql ： sql脚本
->>>>>>>>>>static： 静态文件（优先级高于public）
->>>>>>>>>>templates ： html 模板
->>>>>>>>>>bootstrap.yaml  项目初始配置
+>>>>>>>>>config : 配置（h2 数据配置）  
+>>>>>>>>>public： 静态文件  
+>>>>>>>>>sql ： sql脚本  
+>>>>>>>>>static： 静态文件（优先级高于public）  
+>>>>>>>>>templates ： html 模板  
+>>>>>>>>>bootstrap.yaml  项目初始配置  
 
 ### 数据库建表规范：  
 #### 1. cp_模块名_子模块名（cp_user）
@@ -29,9 +29,10 @@ spring-boot  mybatis-plus
 #### 3. 强制字段（id/version/deleted/create_time）  主键自增id/乐观锁/逻辑删除/创建时间
 
 ### 返回值格式规范(json)
-|body|retMsg||retCode|  
-|------|---|-----|
-|[list]{obj}|"操作成功/失败"|'0000':成功，'0500/0403':失败|
+| body | retMsg | retCode | 
+| - | :-: | -: | 
+|  object | 操作成功/失败 | 0000:成功 0500：失败 | 
+ 
 
 
 
