@@ -8,13 +8,13 @@ spring-boot  mybatis-plus
 
 ### 项目结构
 >com.carpool.cloud.server.  
->>>>>>>>>>>>>>>>>>>>>>>>>auth : 角色权限（注解/接口） 
->>>>>>>>>>>>>>>>>>>>>>>>>code : 代码自动生成
->>>>>>>>>>>>>>>>>>>>>>>>>config : 配置
->>>>>>>>>>>>>>>>>>>>>>>>>controller：控制层
->>>>>>>>>>>>>>>>>>>>>>>>>dal : 持久层，（自动生成）
->>>>>>>>>>>>>>>>>>>>>>>>>domain ： vo/dto  接受参数/返回值
->>>>>>>>>>>>>>>>>>>>>>>>>CarpoolServerApplication 项目启动类
+>>>>>>>>>auth : 角色权限（注解/接口） 
+>>>>>>>>>code : 代码自动生成
+>>>>>>>>>config : 配置
+>>>>>>>>>controller：控制层
+>>>>>>>>>dal : 持久层，（自动生成）
+>>>>>>>>>domain ： vo/dto  接受参数/返回值
+>>>>>>>>>CarpoolServerApplication 项目启动类
 >resources
 >>>>>>>>>>config : 配置（h2 数据配置）
 >>>>>>>>>>public： 静态文件
