@@ -32,7 +32,7 @@ spring-boot  mybatis-plus
 
 ### 返回值格式规范(json)
 | body | retMsg | retCode  |   
-| - | :-: | -: |  
+| - | :-: | :-: |  
 |  object | 操作成功/失败 | 0000:成功 0500：失败  |  
  
 
