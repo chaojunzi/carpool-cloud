@@ -27,6 +27,8 @@ CREATE TABLE `cp_user` (
   `user_name` varchar(32)  DEFAULT NULL COMMENT '昵称',
   `mobile` varchar(32) DEFAULT '' COMMENT '手机号',
   `head_img` varchar(150) DEFAULT '' COMMENT '头像',
+  `user_type` int(11) DEFAULT NULL COMMENT '用户类型 1.乘客2.车主3.管理员',
+  `type` int(11) DEFAULT NULL COMMENT '用户类型 1.乘客2.车主3.管理员',
   `status` tinyint(1) DEFAULT 1 COMMENT '用户状态0.冻结1.正常',
   `deleted` tinyint(4) DEFAULT 0 COMMENT '逻辑删除  1 删除',
   `version` int(11) NOT NULL DEFAULT 0 COMMENT '乐观锁',

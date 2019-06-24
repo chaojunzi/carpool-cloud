@@ -30,7 +30,10 @@ public class UserDTO {
 	 * 真实名字
 	 */
 	private String realName;
-
+	/**
+	 * 用户类型
+	 */
+	private Integer userType;
 	/**
 	 * 昵称
 	 */

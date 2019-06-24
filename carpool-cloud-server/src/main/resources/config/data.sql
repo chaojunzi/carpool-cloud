@@ -27,6 +27,7 @@ CREATE TABLE `cp_user` (
   `user_name` varchar(32)  DEFAULT NULL COMMENT '昵称',
   `mobile` varchar(32) DEFAULT '' COMMENT '手机号',
   `head_img` varchar(150) DEFAULT '' COMMENT '头像',
+  `user_type` int(11) DEFAULT NULL COMMENT '用户类型 1.乘客2.车主3.管理员',
   `status` tinyint(1) DEFAULT 1 COMMENT '用户状态0.冻结1.正常',
   `deleted` tinyint(4) DEFAULT 0 COMMENT '逻辑删除  1 删除',
   `version` int(11) NOT NULL DEFAULT 0 COMMENT '乐观锁',
@@ -38,4 +39,4 @@ CREATE TABLE `cp_user` (
 -- ----------------------------
 -- Records of cp_user
 -- ----------------------------
-INSERT INTO `cp_user` VALUES ('1', 'oZoMOw-zrsuC_VUmadpvqk5XOup4', 'oN0rI5QN80iynu9oeIuKzvoHE8z0', '超', '薛超', '15711066461', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSLMMV0Gic9Zy3Nk56dZfkdm9DB5vWYQyucYOon0BG1vfVaz2d8kcsnetwM2eVzXgTJsvN2Pq45Fg/132', '1', '0', '21', '2019-05-27 17:56:36');
+INSERT INTO `cp_user` VALUES ('1', 'oZoMOw-zrsuC_VUmadpvqk5XOup4', 'oN0rI5QN80iynu9oeIuKzvoHE8z0', '超', '薛超', '15711066461', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSLMMV0Gic9Zy3Nk56dZfkdm9DB5vWYQyucYOon0BG1vfVaz2d8kcsnetwM2eVzXgTJsvN2Pq45Fg/132', '3','1', '0', '21', '2019-05-27 17:56:36');
