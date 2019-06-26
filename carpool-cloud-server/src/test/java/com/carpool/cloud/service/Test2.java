@@ -1,4 +1,4 @@
-package com.nxin.etposvr.basic;
+package com.carpool.cloud.service;
 
 import org.junit.Test;
 
