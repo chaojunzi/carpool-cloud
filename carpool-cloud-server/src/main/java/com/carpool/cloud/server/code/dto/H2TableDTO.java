@@ -9,5 +9,10 @@ public class H2TableDTO implements IDatabaseInfo{
 
 	private String tableSchema;
 	private String tableName;
+	@Override
+	public String getTableName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
  
 }

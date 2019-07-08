@@ -15,9 +15,9 @@ public class Test1 {
 
     @Test
     public void main() {
-         info = "@人找车@今晚6：10@18531290330@软件园二期（近二小东门），" +
+         info = "车找人：今晚6：10 软件园二期（近二小东门），" +
                 "后厂村路，亮甲店-永澄南路，北清路，六环，涿州北，国富，东兴北街，" +
-                "范阳路沿线，终点甲秀路南口";
+                "范阳路沿线，终点甲秀路南口 联系电话：18531290330";
 
         //获取用户类型。
         HashMap<String, String> userTypeHashMap = geiUserType(info);
@@ -82,7 +82,7 @@ public class Test1 {
         HashMap<String, String> userTypeHashMap = new HashMap<>();
         String userType = "";
         if(info.contains("车寻人") || info.contains("车找人") || info.contains("找人")){
-            System.out.println("车主");
+        	 userType = "车主";
         }else if (info.contains("人寻车") || info.contains("人找车") || info.contains("找车")){
 //            System.out.println("乘客");
             userType = "乘客";

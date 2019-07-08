@@ -21,5 +21,53 @@ public class AuthUserDTO implements IAuthUser {
     private String headImg;
     private String token; 
     private Integer userType;
+	@Override
+	public Integer getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Integer getStatus() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Integer getUserType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getOpenId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getUnionId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getUserName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getMobile() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getHeadImg() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getToken() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+    
+    
+    
 
 }

@@ -1,0 +1,574 @@
+{
+    "log_id": 2167250037113563622,
+    "text": "车找人：今晚6:10 软件园二期（近二小东门），后厂村路，亮甲店-永澄南路，北清路，六环，涿州北，国富，东兴北街，范阳路沿线，终点甲秀路南口 联系电话：18531290330",
+    "items": [
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "车",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "车"
+            ],
+            "byte_length": 2,
+            "byte_offset": 0,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "找",
+            "pos": "v",
+            "ne": "",
+            "basic_words": [
+                "找"
+            ],
+            "byte_length": 2,
+            "byte_offset": 2,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "人",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "人"
+            ],
+            "byte_length": 2,
+            "byte_offset": 4,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "：",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "："
+            ],
+            "byte_length": 2,
+            "byte_offset": 6,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "今晚6:10",
+            "pos": "",
+            "ne": "TIME",
+            "basic_words": [
+                "今晚",
+                "6",
+                ":",
+                "10"
+            ],
+            "byte_length": 8,
+            "byte_offset": 8,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": " ",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                " "
+            ],
+            "byte_length": 1,
+            "byte_offset": 16,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "软件园二期",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "软件",
+                "园",
+                "二期"
+            ],
+            "byte_length": 10,
+            "byte_offset": 17,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "（",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "（"
+            ],
+            "byte_length": 2,
+            "byte_offset": 27,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "近",
+            "pos": "ad",
+            "ne": "",
+            "basic_words": [
+                "近"
+            ],
+            "byte_length": 2,
+            "byte_offset": 29,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "二小",
+            "pos": "a",
+            "ne": "",
+            "basic_words": [
+                "二小"
+            ],
+            "byte_length": 4,
+            "byte_offset": 31,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "东门",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "东门"
+            ],
+            "byte_length": 4,
+            "byte_offset": 35,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "）",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "）"
+            ],
+            "byte_length": 2,
+            "byte_offset": 39,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 41,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "后厂村路",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "后",
+                "厂",
+                "村",
+                "路"
+            ],
+            "byte_length": 8,
+            "byte_offset": 43,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 51,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "亮甲店",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "亮甲",
+                "店"
+            ],
+            "byte_length": 6,
+            "byte_offset": 53,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "-",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "-"
+            ],
+            "byte_length": 1,
+            "byte_offset": 59,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "永澄南路",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "永",
+                "澄",
+                "南",
+                "路"
+            ],
+            "byte_length": 8,
+            "byte_offset": 60,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 68,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "北清路",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "北",
+                "清",
+                "路"
+            ],
+            "byte_length": 6,
+            "byte_offset": 70,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 76,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "六环",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "六环"
+            ],
+            "byte_length": 4,
+            "byte_offset": 78,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 82,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "涿州北",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "涿州",
+                "北"
+            ],
+            "byte_length": 6,
+            "byte_offset": 84,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 90,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "国富",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "国富"
+            ],
+            "byte_length": 4,
+            "byte_offset": 92,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 96,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "东兴北街",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "东兴",
+                "北",
+                "街"
+            ],
+            "byte_length": 8,
+            "byte_offset": 98,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 106,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "范阳路",
+            "pos": "",
+            "ne": "PER",
+            "basic_words": [
+                "范",
+                "阳",
+                "路"
+            ],
+            "byte_length": 6,
+            "byte_offset": 108,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "沿线",
+            "pos": "f",
+            "ne": "",
+            "basic_words": [
+                "沿线"
+            ],
+            "byte_length": 4,
+            "byte_offset": 114,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "，",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "，"
+            ],
+            "byte_length": 2,
+            "byte_offset": 118,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "终点",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "终点"
+            ],
+            "byte_length": 4,
+            "byte_offset": 120,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "甲秀路南口",
+            "pos": "",
+            "ne": "LOC",
+            "basic_words": [
+                "甲",
+                "秀",
+                "路",
+                "南口"
+            ],
+            "byte_length": 10,
+            "byte_offset": 124,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": " ",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                " "
+            ],
+            "byte_length": 1,
+            "byte_offset": 134,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "联系",
+            "pos": "vn",
+            "ne": "",
+            "basic_words": [
+                "联系"
+            ],
+            "byte_length": 4,
+            "byte_offset": 135,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "电话",
+            "pos": "n",
+            "ne": "",
+            "basic_words": [
+                "电话"
+            ],
+            "byte_length": 4,
+            "byte_offset": 139,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "：",
+            "pos": "w",
+            "ne": "",
+            "basic_words": [
+                "："
+            ],
+            "byte_length": 2,
+            "byte_offset": 143,
+            "uri": ""
+        },
+        {
+            "formal": "",
+            "loc_details": [
+            ],
+            "item": "18531290330",
+            "pos": "m",
+            "ne": "",
+            "basic_words": [
+                "18531290330"
+            ],
+            "byte_length": 11,
+            "byte_offset": 145,
+            "uri": ""
+        }
+    ]
+}

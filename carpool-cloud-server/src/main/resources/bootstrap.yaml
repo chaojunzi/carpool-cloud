@@ -4,7 +4,7 @@ log.path: /logs/carpool/${spring.application.name}
 log.maxHistory: 30
 
 server:
-  port: 80
+  port: 8085
   tomcat.uri-encoding: utf-8
   servlet:    session:      timeout: 1800
 #共享文件(功能类型)
@@ -20,14 +20,14 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   datasource:
-    url: jdbc:h2:mem:carpool;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MYSQL
-    driver-class-name: org.h2.Driver
+    #url: jdbc:h2:mem:carpool;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MYSQL
+    #driver-class-name: org.h2.Driver
     schema: classpath:config/schema.sql  #仅数据库结构
     data: classpath:config/data.sql  #数据库结构+数据
-    #url: jdbc:mysql://127.0.0.1:3306/carpool?useSSL=false&useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true
-    #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/LvCar?useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 123456
+    password: jdz
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       validation-query: SELECT 1
@@ -52,6 +52,15 @@ mybatis-plus:
 #默认使用本地数据源-代码自动生成
 chao:
   cloud:
+    im:
+      tai: #腾讯
+        app-id: 2118014633
+        app-key: LirwLm1HMBGXDThB
+        session: chaojunzi
+      bai: #百度
+        app-id: 16725432
+        api-key: xz02TND1B4a5cVwmWc3Y1EfT
+        secret-key: 5nieFQo3g0LxVHOdk5ABcQfAx7826iqs
     wx: 
       ma:
         config: #微信小程序
